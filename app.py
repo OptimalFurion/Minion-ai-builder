@@ -1,5 +1,6 @@
-import streamlit as st import time from datetime import datetime, timedelta
-
+import streamlit as st
+import time
+from datetime import datetime, timedelta
 Sample minion card pool
 
 minion_card_pool = { 'block_ranged': {'name': 'Block Ranged', 'type': 'defense', 'counter': 'ranged'}, 'reflect_magic': {'name': 'Reflect Magic', 'type': 'defense', 'counter': 'magic'}, 'dodge_melee': {'name': 'Dodge Melee', 'type': 'defense', 'counter': 'melee'}, 'rush_attack': {'name': 'Rush Attack', 'type': 'offense', 'focus': 'aggression'}, 'drain_life': {'name': 'Drain Life', 'type': 'offense', 'focus': 'magic'}, }
